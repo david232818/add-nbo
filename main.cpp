@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
     goto FILE_READ_ERR;
 
   sum = add(n1, n2, true);
-  printf("%d(%x) + %d(%x) = %d(%x)\n", ntohl(n1), ntohl(n1),
+  printf("%d(0x%x) + %d(0x%x) = %d(0x%x)\n", ntohl(n1), ntohl(n1),
 	 ntohl(n2), ntohl(n2), sum, sum);
   return 0;
 
